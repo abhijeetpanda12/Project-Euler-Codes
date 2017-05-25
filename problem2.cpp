@@ -8,7 +8,6 @@ int main(){
 		sum+=(c%2==0)?c:0;
 		a=b;
 		b=c;
-		//flag=(flag==0)?1:0;
 	}
 	cout<<"Sum of the even fibonacci terms is "<<sum;
 	return 0;
