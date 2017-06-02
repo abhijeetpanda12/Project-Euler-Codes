@@ -2,12 +2,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int i,k=20;
-	long long int pro=1;
+long double x=1,i,k=20;
 	for(i=1;i<=k;i++){
-		pro*=(k+i)/i;
+		x=x*(k+i)/i;
 	}
-	printf("%llu", pro);
+  	printf("Number of Routes: %Lf\n", x);
 	return 0;
 }
-
